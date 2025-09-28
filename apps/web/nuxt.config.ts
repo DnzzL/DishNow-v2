@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 	runtimeConfig: {
 		public: {
 			serverURL: process.env.NUXT_PUBLIC_SERVER_URL,
-			pocketbaseUrl: process.env.POCKETBASE_URL || "http://localhost:8090",
+			pocketbaseUrl: process.env.NUXT_POCKETBASE_URL || "http://localhost:8090",
 		},
 	},
 });

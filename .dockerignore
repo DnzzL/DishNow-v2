@@ -1,0 +1,6 @@
+apps/pocketbase/*
+**/.nuxt/*
+**/.output/*
+**/.turbo/*
+**/node_modules/*
+**/.env
