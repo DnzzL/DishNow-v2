@@ -5,7 +5,7 @@ ENV POCKETBASE_URL=$POCKETBASE_URL
 
 WORKDIR /app
 
-COPY bun.lockb package.json turbo.json ./
+COPY bun.lock package.json turbo.json ./
 
 RUN bun install --frozen-lockfile
 
