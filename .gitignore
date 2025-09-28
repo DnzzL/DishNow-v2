@@ -2,3 +2,7 @@ node_modules
 .turbo
 .alchemy
 .env
+apps/pocketbase/pocketbase
+apps/pocketbase/pb_data
+opencode.json
+.DS_Store

@@ -3,6 +3,7 @@ import ModeToggle from './ModeToggle.vue'
 
 const links = [
     { to: "/", label: "Home" },
+    { to: "/add-recipe", label: "Add Recipe" },
 ];
 </script>
 
