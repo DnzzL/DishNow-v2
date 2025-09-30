@@ -1,6 +1,6 @@
 import PocketBase from "pocketbase"
 
-const superuserClient = new PocketBase(process.env.POCKETBASE_URL);
+const superuserClient = new PocketBase(process.env.NUXT_PUBLIC_POCKETBASE_URL);
 
 // disable autocancellation so that we can handle async requests from multiple users
 superuserClient.autoCancellation(false);
