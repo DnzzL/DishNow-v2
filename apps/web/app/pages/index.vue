@@ -20,7 +20,8 @@ const filteredRecipes = computed(() => {
 onMounted(async () => {
   try {
     const data = await $pb.collection('recipes').getFullList({
-      expand: 'author'
+      expand: 'author',
+      sort: '-created'
     })
     recipes.value = data
   } catch (err) {
