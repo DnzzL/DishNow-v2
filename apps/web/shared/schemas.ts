@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 export const IngredientSchema = z.object({
   name: z.string(),
-  quantity: z.number().positive("Quantity must be a positive number"),
+  quantity: z.number().nullable(),
   unit: z.string(),
   notes: z.string().optional(),
 });
